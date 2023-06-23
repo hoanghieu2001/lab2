@@ -554,7 +554,15 @@ const products = [
         ]
     }
 ]
+/**
+@typedef product
+@property {title} string    
+@property {description} string
+@property {description} string
+@property {price} number
 
+ * 
+ */
 function Phone({ product }) {
     return (
         <div className="phone col-6">
